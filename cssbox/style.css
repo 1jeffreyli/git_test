@@ -2,16 +2,25 @@
     padding: 0;
     margin: 0;
     font-size: 40px;
+    /* box-sizing: border-box; */   
 }
+
+/* border-box is sometimes included in the universal selector to make calculating spacing easier (i.e. the height and width being set is the actual height and width) */
 
 .box-one {
     background-color: #EB5757;
-    padding: 20px;
-    border: 20px solid #9B51E0;
-    margin: 20px;
+    padding: 10px;
+    border: 30px solid #9B51E0;
+    margin: 100px;
+    box-sizing: border-box;
 }
 
 .box-two {
     background-color: #2D9CDB;
     border: 0 solid #27AE60;
+    padding: 10px;
+    height: 100px;
+    width: 100px;
+    border: 30px solid #9B51E0;
+    margin: 70px;
 }

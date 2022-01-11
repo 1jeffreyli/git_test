@@ -1,5 +1,10 @@
 .container{
     height: 100vh;
+    display: flex;
+    gap: 25px;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-end;
 }
 
 [class ^="box-"]{
@@ -7,5 +12,12 @@
     height: 140px;
     background-color: skyblue;
     border: 2px solid black;
-    font-size: 65px
+    font-size: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-2{
+    align-self: center;
 }

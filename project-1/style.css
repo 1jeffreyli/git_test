@@ -1,10 +1,11 @@
+/* place-content: align-content justify-content; shorthand */
+
 .container{
     height: 100vh;
     display: flex;
     gap: 25px;
     flex-flow: row wrap;
-    justify-content: flex-start;
-    align-items: flex-end;
+    place-content: center flex-end;
 }
 
 [class ^="box-"]{
